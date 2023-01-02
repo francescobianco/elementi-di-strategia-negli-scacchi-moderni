@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.2)  2 JAN 2023 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.2)  2 JAN 2023 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -130,6 +130,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
+(/usr/share/texlive/texmf-dist/tex/latex/xskak/xskak.sty
+Package: xskak 2019/06/23 version v1.5 extended chess typesetting and parsing
+
 (/usr/share/texlive/texmf-dist/tex/latex/skak/skak.sty
 Package: skak 2018/01/08 v1.5.3 Chess typesetting
 
@@ -218,7 +221,355 @@ LaTeX Font Warning: Font shape `OT1/lmss/m/up' undefined
 (Font)              using `OT1/lmss/m/n' instead on input line 1774.
 
 \store@toks=\toks23
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+(/usr/share/texlive/texmf-dist/tex/latex/chessboard/chessboard.sty
+Package: chessboard 2020/11/01 version v1.9 print chessboards
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen150
+\pgfutil@tempdimb=\dimen151
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box52
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks27
+))
+\pgf@x=\dimen154
+\pgf@y=\dimen155
+\pgf@xa=\dimen156
+\pgf@ya=\dimen157
+\pgf@xb=\dimen158
+\pgf@yb=\dimen159
+\pgf@xc=\dimen160
+\pgf@yc=\dimen161
+\pgf@xd=\dimen162
+\pgf@yd=\dimen163
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count288
+\c@pgf@countb=\count289
+\c@pgf@countc=\count290
+\c@pgf@countd=\count291
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+\pgf@sys@id@count=\count292
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen164
+\pgfmath@count=\count295
+\pgfmath@box=\box53
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count296
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen165
+\pgf@picmaxx=\dimen166
+\pgf@picminy=\dimen167
+\pgf@picmaxy=\dimen168
+\pgf@pathminx=\dimen169
+\pgf@pathmaxx=\dimen170
+\pgf@pathminy=\dimen171
+\pgf@pathmaxy=\dimen172
+\pgf@xx=\dimen173
+\pgf@xy=\dimen174
+\pgf@yx=\dimen175
+\pgf@yy=\dimen176
+\pgf@zx=\dimen177
+\pgf@zy=\dimen178
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen179
+\pgf@path@lasty=\dimen180
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen181
+\pgf@shorten@start@additional=\dimen182
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count297
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen183
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen184
+\pgf@pt@y=\dimen185
+\pgf@pt@temp=\dimen186
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen187
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen188
+\pgf@sys@shading@range@num=\count298
+\pgf@shadingcount=\count299
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box57
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box58
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen189
+\pgf@nodesepend=\dimen190
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen191
+\pgffor@skip=\dimen192
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count300
+\pgfplotmarksize=\dimen193
+)
+\tikz@lastx=\dimen194
+\tikz@lasty=\dimen195
+\tikz@lastxsaved=\dimen196
+\tikz@lastysaved=\dimen197
+\tikz@lastmovetox=\dimen198
+\tikz@lastmovetoy=\dimen199
+\tikzleveldistance=\dimen256
+\tikzsiblingdistance=\dimen257
+\tikz@figbox=\box59
+\tikz@figbox@bg=\box60
+\tikz@tempbox=\box61
+\tikz@tempbox@bg=\box62
+\tikztreelevel=\count301
+\tikznumberofchildren=\count302
+\tikznumberofcurrentchild=\count303
+\tikz@fig@count=\count304
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count305
+\pgfmatrixcurrentcolumn=\count306
+\pgf@matrix@numberofcolumns=\count307
+)
+\tikz@expandcount=\count308
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+\len@board@tempx=\skip60
+\len@board@tempy=\skip61
+\c@cnt@board@file=\count309
+\c@cnt@board@rank=\count310
+\c@cnt@board=\count311
+\c@filelabel=\count312
+\c@ranklabel=\count313
+
+(/usr/share/texlive/texmf-dist/tex/latex/chessboard/chessboard-keys-main.sty
+File: chessboard-keys-main.sty 2020/11/01 version v1.9 key definitions for ches
+sboard.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/chessboard/chessboard-keys-pgf.sty
+File: chessboard-keys-pgf.sty 2020/11/01 version v1.9 key definitions for chess
+board.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/chessboard/chessboard-pgf.sty
+File: chessboard-pgf.sty 2020/11/01 version v1.9 pgf code for chessboard.sty
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xskak/xskak-keys.sty
+File: xskak-keys.sty 2019/06/23 version v1.5 key definitions for xskak.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xskak/xskak-nagdef.sty
+File: xskak-nagdef.sty 2019/06/23 version v1.5 nag definitions for xskak.sty
+)
+LaTeX Info: Redefining \variation on input line 1473.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
 2.
@@ -228,8 +579,8 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks24
-\inpenc@posthook=\toks25
+\inpenc@prehook=\toks36
+\inpenc@posthook=\toks37
 )
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
@@ -237,27 +588,22 @@ tim
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2021/12/10 v3.0b Micro-typographical refinements (RS)
-
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count287
-)
-\MT@toks=\toks26
-\MT@count=\count288
-\MT@tempbox=\box52
+\MT@toks=\toks38
+\MT@count=\count314
+\MT@tempbox=\box63
 LaTeX Info: Redefining \leftprotrusion on input line 1010.
 LaTeX Info: Redefining \rightprotrusion on input line 1018.
 LaTeX Info: Redefining \textls on input line 1173.
-\MT@outer@kern=\dimen150
+\MT@outer@kern=\dimen258
 LaTeX Info: Redefining \textmicrotypecontext on input line 1759.
-\MT@listname@count=\count289
+\MT@listname@count=\count315
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2021/12/10 v3.0b Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 897.
 LaTeX Info: Redefining \lslig on input line 897.
-\MT@outer@space=\skip60
+\MT@outer@space=\skip62
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -276,27 +622,6 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 227.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 
@@ -336,9 +661,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen151
-\Hy@linkcounter=\count290
-\Hy@pagecounter=\count291
+\@linkdim=\dimen259
+\Hy@linkcounter=\count316
+\Hy@pagecounter=\count317
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
@@ -355,7 +680,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count292
+\Hy@SavedSpaceFactor=\count318
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
@@ -370,9 +695,9 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count293
+\c@Hy@tempcnt=\count319
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen152
+\XeTeXLinkMargin=\dimen260
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -381,9 +706,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count294
-\Field@Width=\dimen153
-\Fld@charsize=\dimen154
+\Fld@menulength=\count320
+\Field@Width=\dimen261
+\Fld@charsize=\dimen262
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -398,9 +723,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count295
-\c@Item=\count296
-\c@Hfootnote=\count297
+\Hy@abspage=\count321
+\c@Item=\count322
+\c@Hfootnote=\count323
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -412,8 +737,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count298
-\c@bookmark@seq@number=\count299
+\Fld@listcount=\count324
+\c@bookmark@seq@number=\count325
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -424,161 +749,125 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip63
 )
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count300
+\BKM@id=\count326
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip62
-\LTright=\skip63
-\LTpre=\skip64
-\LTpost=\skip65
-\LTchunksize=\count301
-\LTcapwidth=\dimen155
-\LT@head=\box53
-\LT@firsthead=\box54
-\LT@foot=\box55
-\LT@lastfoot=\box56
-\LT@gbox=\box57
-\LT@cols=\count302
-\LT@rows=\count303
-\c@LT@tables=\count304
-\c@LT@chunks=\count305
-\LT@p@ftn=\toks27
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count327
+\LTcapwidth=\dimen263
+\LT@head=\box64
+\LT@firsthead=\box65
+\LT@foot=\box66
+\LT@lastfoot=\box67
+\LT@gbox=\box68
+\LT@cols=\count328
+\LT@rows=\count329
+\c@LT@tables=\count330
+\c@LT@chunks=\count331
+\LT@p@ftn=\toks39
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen156
-\lightrulewidth=\dimen157
-\cmidrulewidth=\dimen158
-\belowrulesep=\dimen159
-\belowbottomsep=\dimen160
-\aboverulesep=\dimen161
-\abovetopsep=\dimen162
-\cmidrulesep=\dimen163
-\cmidrulekern=\dimen164
-\defaultaddspace=\dimen165
-\@cmidla=\count306
-\@cmidlb=\count307
-\@aboverulesep=\dimen166
-\@belowrulesep=\dimen167
-\@thisruleclass=\count308
-\@lastruleclass=\count309
-\@thisrulewidth=\dimen168
+\heavyrulewidth=\dimen264
+\lightrulewidth=\dimen265
+\cmidrulewidth=\dimen266
+\belowrulesep=\dimen267
+\belowbottomsep=\dimen268
+\aboverulesep=\dimen269
+\abovetopsep=\dimen270
+\cmidrulesep=\dimen271
+\cmidrulekern=\dimen272
+\defaultaddspace=\dimen273
+\@cmidla=\count332
+\@cmidlb=\count333
+\@aboverulesep=\dimen274
+\@belowrulesep=\dimen275
+\@thisruleclass=\count334
+\@lastruleclass=\count335
+\@thisrulewidth=\dimen276
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen169
-\ar@mcellbox=\box58
-\extrarowheight=\dimen170
-\NC@list=\toks28
-\extratabsurround=\skip66
-\backup@length=\skip67
-\ar@cellbox=\box59
+\col@sep=\dimen277
+\ar@mcellbox=\box69
+\extrarowheight=\dimen278
+\NC@list=\toks40
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box70
 )
 (/usr/share/texlive/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
 Package: footnotehyper 2021/08/13 v1.1e hyperref aware footnote.sty (JFB)
-\FNH@notes=\box60
-\FNH@width=\dimen171
-\FNH@toks=\toks29
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-)
-\Gin@req@height=\dimen172
-\Gin@req@width=\dimen173
+\FNH@notes=\box71
+\FNH@width=\dimen279
+\FNH@toks=\toks41
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count310
-\l__pdf_internal_box=\box61
+\l__color_backend_stack_int=\count336
+\l__pdf_internal_box=\box72
 )
 (./elementi-di-strategia-negli-scacchi-moderni.aux)
 \openout1 = `elementi-di-strategia-negli-scacchi-moderni.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for LSB/skaknew/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for LSF/skaknew/m/n on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for LSB/skaknew/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for LSF/skaknew/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for LSF+skaknew on input li
-ne 77.
+ne 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/chessfss/lsfskaknew.fd
 File: lsfskaknew.fd 2006/03/31 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for LSI/skaknew/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for LSI/skaknew/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for LSI+skaknew on input li
-ne 77.
+ne 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/chessfss/lsiskaknew.fd
 File: lsiskaknew.fd 2006/03/31 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Info: Redefining \microtypecontext on input line 77.
-Package microtype Info: Applying patch `item' on input line 77.
-Package microtype Info: Applying patch `toc' on input line 77.
-Package microtype Info: Applying patch `eqnum' on input line 77.
-Package microtype Info: Applying patch `footnote' on input line 77.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using protrusion set `basicmath'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 77.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count311
-\scratchdimen=\dimen174
-\scratchbox=\box62
-\nofMPsegments=\count312
-\nofMParguments=\count313
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count314
-\MPscratchDim=\dimen175
-\MPnumerator=\count315
-\makeMPintoPDFobject=\count316
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count337
+\scratchdimen=\dimen280
+\scratchbox=\box73
+\nofMPsegments=\count338
+\nofMParguments=\count339
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count340
+\MPscratchDim=\dimen281
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
+\everyMPtoPDFconversion=\toks43
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -588,7 +877,27 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 77.
+LaTeX Info: Redefining \microtypecontext on input line 78.
+Package microtype Info: Applying patch `item' on input line 78.
+Package microtype Info: Applying patch `toc' on input line 78.
+Package microtype Info: Applying patch `eqnum' on input line 78.
+Package microtype Info: Applying patch `footnote' on input line 78.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 78.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package hyperref Info: Link coloring OFF on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -599,566 +908,566 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count317
+\c@section@level=\count343
 )
-LaTeX Info: Redefining \ref on input line 77.
-LaTeX Info: Redefining \pageref on input line 77.
-LaTeX Info: Redefining \nameref on input line 77.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-13.
+18.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image1.png, id=16, 321.2pt x 3
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image1.png, id=19, 321.2pt x 3
 21.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1.png Graphic file (
 type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image1.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-.png  used on input line 216.
+.png  used on input line 220.
 (pdftex.def)             Requested size: 108.70663pt x 108.70663pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image2.png, id=17, 321.2pt x 3
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image2.png, id=20, 321.2pt x 3
 21.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2.png Graphic file (
 type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image2.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-.png  used on input line 222.
+.png  used on input line 226.
 (pdftex.def)             Requested size: 108.70663pt x 108.70663pt.
  [3 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image1.png (PNG copy)> <
 ./vertopal_109f12be458a423d8f3cc838880eaea2/media/image2.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image3.png, id=23, 321.2pt x 3
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image3.png, id=27, 321.2pt x 3
 21.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3.png Graphic file (
 type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image3.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-.png  used on input line 261.
+.png  used on input line 265.
 (pdftex.def)             Requested size: 108.70663pt x 108.70663pt.
  [4 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image3.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image4.png, id=30, 321.2pt x 3
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image4.png, id=34, 321.2pt x 3
 21.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4.png Graphic file (
 type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image4.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-.png  used on input line 297.
+.png  used on input line 301.
 (pdftex.def)             Requested size: 108.70663pt x 108.70663pt.
  [5 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image4.png (PNG copy)>] 
 [6]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image5.png, id=39, 321.2pt x 3
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image5.png, id=43, 321.2pt x 3
 21.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5.png Graphic file (
 type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image5.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-.png  used on input line 388.
+.png  used on input line 392.
 (pdftex.def)             Requested size: 108.70663pt x 108.70663pt.
  [7 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image5.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image6.png, id=48, 385.44pt x 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image6.png, id=52, 385.44pt x 
 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6.png Graphic file (
 type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image6.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-.png  used on input line 446.
+.png  used on input line 450.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image7.png, id=49, 385.44pt x 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image7.png, id=53, 385.44pt x 
 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7.png Graphic file (
 type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image7.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-.png  used on input line 466.
+.png  used on input line 470.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [8 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image6.png (PNG copy)> <
 ./vertopal_109f12be458a423d8f3cc838880eaea2/media/image7.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image8.png, id=54, 385.44pt x 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image8.png, id=58, 385.44pt x 
 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8.png Graphic file (
 type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image8.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-.png  used on input line 510.
+.png  used on input line 514.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [9 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image8.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image9.png, id=59, 385.44pt x 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image9.png, id=63, 385.44pt x 
 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9.png Graphic file (
 type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image9.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-.png  used on input line 528.
+.png  used on input line 532.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image10.png, id=60, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image10.png, id=64, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image10.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image10.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-0.png  used on input line 549.
+0.png  used on input line 553.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image11.png, id=61, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image11.png, id=65, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image11.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image11.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-1.png  used on input line 557.
+1.png  used on input line 561.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [10 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image9.png (PNG copy)> 
 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image10.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image12.png, id=66, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image12.png, id=70, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image12.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image12.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-2.png  used on input line 573.
+2.png  used on input line 577.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image13.png, id=67, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image13.png, id=71, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image13.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image13.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-3.png  used on input line 589.
+3.png  used on input line 593.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [11 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image11.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image12.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image14.png, id=72, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image14.png, id=76, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image14.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image14.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-4.png  used on input line 611.
+4.png  used on input line 615.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image15.png, id=73, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image15.png, id=77, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image15.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image15.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-5.png  used on input line 630.
+5.png  used on input line 634.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [12 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image13.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image14.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image16.png, id=78, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image16.png, id=82, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image16.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image16.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-6.png  used on input line 649.
+6.png  used on input line 653.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image17.png, id=79, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image17.png, id=83, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image17.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image17.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-7.png  used on input line 659.
+7.png  used on input line 663.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [13 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image15.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image16.png (PNG copy)> <./
 vertopal_109f12be458a423d8f3cc838880eaea2/media/image17.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image18.png, id=85, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image18.png, id=89, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image18.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image18.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-8.png  used on input line 683.
+8.png  used on input line 687.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [14 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image18.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image19.png, id=90, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image19.png, id=94, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image19.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image19.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-9.png  used on input line 742.
+9.png  used on input line 746.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [15 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image19.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image20.png, id=95, 385.44pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image20.png, id=99, 385.44pt x
  385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image20.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image20.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-0.png  used on input line 800.
+0.png  used on input line 804.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [16 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image20.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image21.png, id=100, 384.43625
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image21.png, id=104, 384.43625
 pt x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image21.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image21.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-1.png  used on input line 858.
+1.png  used on input line 862.
 (pdftex.def)             Requested size: 101.56421pt x 101.82939pt.
  [17]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image22.png, id=105, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image22.png, id=109, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image22.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image22.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-2.png  used on input line 866.
+2.png  used on input line 870.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [18 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image21.png> <./vertopa
 l_109f12be458a423d8f3cc838880eaea2/media/image22.png>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image23.png, id=112, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image23.png, id=116, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image23.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image23.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-3.png  used on input line 917.
+3.png  used on input line 921.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
 
 [19 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image23.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image24.png, id=118, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image24.png, id=122, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image24.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image24.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-4.png  used on input line 973.
+4.png  used on input line 977.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
 [20 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image24.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image25.png, id=123, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image25.png, id=127, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image25.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image25.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-5.png  used on input line 1013.
+5.png  used on input line 1017.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
 [21 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image25.png>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image26.png, id=129, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image26.png, id=133, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image26.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image26.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-6.png  used on input line 1083.
+6.png  used on input line 1087.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [22 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image26.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image27.png, id=134, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image27.png, id=138, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image27.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image27.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-7.png  used on input line 1099.
+7.png  used on input line 1103.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image28.png, id=135, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image28.png, id=139, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image28.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image28.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-8.png  used on input line 1118.
+8.png  used on input line 1122.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image29.png, id=136, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image29.png, id=140, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image29.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image29.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image2
-9.png  used on input line 1127.
+9.png  used on input line 1131.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [23 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image27.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image28.png>] [24 <./vertop
 al_109f12be458a423d8f3cc838880eaea2/media/image29.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image30.png, id=146, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image30.png, id=150, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image30.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image30.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-0.png  used on input line 1216.
+0.png  used on input line 1220.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [25 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image30.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image31.png, id=152, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image31.png, id=156, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image31.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image31.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-1.png  used on input line 1248.
+1.png  used on input line 1252.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image32.png, id=153, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image32.png, id=157, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image32.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image32.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-2.png  used on input line 1274.
+2.png  used on input line 1278.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [26 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image31.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image33.png, id=158, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image33.png, id=162, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image33.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image33.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-3.png  used on input line 1293.
+3.png  used on input line 1297.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image34.png, id=159, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image34.png, id=163, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image34.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image34.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-4.png  used on input line 1306.
+4.png  used on input line 1310.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [27 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image32.png> <./vertopa
 l_109f12be458a423d8f3cc838880eaea2/media/image33.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image35.png, id=165, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image35.png, id=169, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image35.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image35.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-5.png  used on input line 1319.
+5.png  used on input line 1323.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image36.png, id=166, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image36.png, id=170, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image36.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image36.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-6.png  used on input line 1330.
+6.png  used on input line 1334.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [28 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image34.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image35.png (PNG copy)> <./
 vertopal_109f12be458a423d8f3cc838880eaea2/media/image36.png (PNG copy)>] [29]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image37.png, id=175, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image37.png, id=179, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image37.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image37.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-7.png  used on input line 1414.
+7.png  used on input line 1418.
 (pdftex.def)             Requested size: 101.17657pt x 101.17657pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image38.png, id=176, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image38.png, id=180, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image38.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image38.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-8.png  used on input line 1434.
+8.png  used on input line 1438.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [30 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image37.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image38.png>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image39.png, id=183, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image39.png, id=187, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image39.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image39.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image3
-9.png  used on input line 1463.
+9.png  used on input line 1467.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image40.png, id=184, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image40.png, id=188, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image40.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image40.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-0.png  used on input line 1474.
+0.png  used on input line 1478.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [31 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image39.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image40.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image41.png, id=190, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image41.png, id=194, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image41.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image41.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-1.png  used on input line 1515.
+1.png  used on input line 1519.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [32 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image41.png>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image42.png, id=197, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image42.png, id=201, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image42.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image42.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-2.png  used on input line 1536.
+2.png  used on input line 1540.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image43.png, id=198, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image43.png, id=202, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image43.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image43.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-3.png  used on input line 1546.
+3.png  used on input line 1550.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image44.png, id=199, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image44.png, id=203, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image44.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image44.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-4.png  used on input line 1553.
+4.png  used on input line 1557.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image45.png, id=200, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image45.png, id=204, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image45.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image45.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-5.png  used on input line 1558.
+5.png  used on input line 1562.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [33 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image42.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image43.png (PNG copy)> <./
 vertopal_109f12be458a423d8f3cc838880eaea2/media/image44.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image46.png, id=205, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image46.png, id=209, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image46.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image46.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-6.png  used on input line 1568.
+6.png  used on input line 1572.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [34 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image45.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image46.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image47.png, id=210, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image47.png, id=214, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image47.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image47.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-7.png  used on input line 1603.
+7.png  used on input line 1607.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image48.png, id=211, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image48.png, id=215, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image48.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image48.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-8.png  used on input line 1620.
+8.png  used on input line 1624.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [35 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image47.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image48.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image49.png, id=216, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image49.png, id=220, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image49.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image49.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image4
-9.png  used on input line 1642.
+9.png  used on input line 1646.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image50.png, id=217, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image50.png, id=221, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image50.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image50.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-0.png  used on input line 1653.
+0.png  used on input line 1657.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [36 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image49.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image50.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image51.png, id=222, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image51.png, id=226, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image51.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image51.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-1.png  used on input line 1700.
+1.png  used on input line 1704.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
 
 [37 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image51.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image52.png, id=228, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image52.png, id=232, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image52.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image52.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-2.png  used on input line 1734.
+2.png  used on input line 1738.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image53.png, id=229, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image53.png, id=233, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image53.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image53.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-3.png  used on input line 1761.
+3.png  used on input line 1765.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
 [38 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image52.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image54.png, id=234, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image54.png, id=238, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image54.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image54.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-4.png  used on input line 1781.
+4.png  used on input line 1785.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
 [39 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image53.png (PNG copy)> 
 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image54.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image55.png, id=239, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image55.png, id=243, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image55.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image55.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-5.png  used on input line 1822.
+5.png  used on input line 1826.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image56.png, id=240, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image56.png, id=244, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image56.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image56.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-6.png  used on input line 1849.
+6.png  used on input line 1853.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
 
 [40 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image55.png (PNG copy)>]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-859.
+863.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-859.
+863.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-1859.
+1863.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-1859.
+1863.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 1859.
+(Font)              <10> on input line 1863.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 1859.
+(Font)              <7> on input line 1863.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 1859.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 185
-9.
+(Font)              <5> on input line 1863.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 186
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1166,8 +1475,8 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 185
-9.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 186
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1175,614 +1484,606 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image57.png, id=245, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image57.png, id=249, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image57.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image57.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-7.png  used on input line 1866.
+7.png  used on input line 1870.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [41 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image56.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image57.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image58.png, id=251, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image58.png, id=255, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image58.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image58.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-8.png  used on input line 1895.
+8.png  used on input line 1899.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image59.png, id=252, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image59.png, id=256, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image59.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image59.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image5
-9.png  used on input line 1931.
+9.png  used on input line 1935.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [42 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image58.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image60.png, id=257, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image60.png, id=261, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image60.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image60.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-0.png  used on input line 1963.
+0.png  used on input line 1967.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [43 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image59.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image60.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image61.png, id=263, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image61.png, id=267, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image61.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image61.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-1.png  used on input line 2003.
+1.png  used on input line 2007.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [44 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image61.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image62.png, id=268, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image62.png, id=272, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image62.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image62.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-2.png  used on input line 2025.
+2.png  used on input line 2029.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image63.png, id=269, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image63.png, id=273, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image63.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image63.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-3.png  used on input line 2044.
+3.png  used on input line 2048.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image64.png, id=270, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image64.png, id=274, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image64.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image64.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-4.png  used on input line 2050.
+4.png  used on input line 2054.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [45 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image62.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image63.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image65.png, id=275, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image65.png, id=279, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image65.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image65.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-5.png  used on input line 2057.
+5.png  used on input line 2061.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
  [46 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image64.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image65.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image66.png, id=280, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image66.png, id=284, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image66.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image66.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-6.png  used on input line 2100.
+6.png  used on input line 2104.
 (pdftex.def)             Requested size: 101.87645pt x 101.87645pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image67.png, id=281, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image67.png, id=285, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image67.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image67.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-7.png  used on input line 2116.
+7.png  used on input line 2120.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image68.png, id=282, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image68.png, id=286, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image68.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image68.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-8.png  used on input line 2125.
+8.png  used on input line 2129.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [47 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image66.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image67.png (PNG copy)>] [4
 8 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image68.png (PNG copy)>] [
 49]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image69.png, id=296, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image69.png, id=300, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image69.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image69.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image6
-9.png  used on input line 2236.
+9.png  used on input line 2240.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 2247.
+(Font)              <8> on input line 2251.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 2247.
+(Font)              <6> on input line 2251.
  [50 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image69.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image70.png, id=305, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image70.png, id=309, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image70.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image70.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-0.png  used on input line 2294.
+0.png  used on input line 2298.
 (pdftex.def)             Requested size: 101.02365pt x 101.02365pt.
  [51 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image70.png>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image71.png, id=311, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image71.png, id=315, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image71.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image71.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-1.png  used on input line 2326.
+1.png  used on input line 2330.
 (pdftex.def)             Requested size: 101.02365pt x 101.02365pt.
  [52 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image71.png>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image72.png, id=317, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image72.png, id=321, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image72.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image72.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-2.png  used on input line 2375.
+2.png  used on input line 2379.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [53 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image72.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image73.png, id=322, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image73.png, id=326, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image73.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image73.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-3.png  used on input line 2429.
+3.png  used on input line 2433.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image74.png, id=323, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image74.png, id=327, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image74.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image74.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-4.png  used on input line 2466.
+4.png  used on input line 2470.
 (pdftex.def)             Requested size: 101.02365pt x 101.02365pt.
  [54 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image73.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image75.png, id=328, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image75.png, id=332, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image75.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image75.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-5.png  used on input line 2477.
+5.png  used on input line 2481.
 (pdftex.def)             Requested size: 101.02365pt x 101.02365pt.
  [55 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image74.png> <./vertopa
 l_109f12be458a423d8f3cc838880eaea2/media/image75.png>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image76.png, id=336, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image76.png, id=340, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image76.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image76.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-6.png  used on input line 2509.
+6.png  used on input line 2513.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image77.png, id=337, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image77.png, id=341, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image77.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image77.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-7.png  used on input line 2540.
+7.png  used on input line 2544.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [56 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image76.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image77.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image78.png, id=342, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image78.png, id=346, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image78.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image78.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-8.png  used on input line 2591.
+8.png  used on input line 2595.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [57 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image78.png (PNG copy)>
 ] [58]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image79.png, id=351, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image79.png, id=355, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image79.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image79.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image7
-9.png  used on input line 2679.
+9.png  used on input line 2683.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [59 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image79.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image80.png, id=356, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image80.png, id=360, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image80.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image80.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-0.png  used on input line 2705.
+0.png  used on input line 2709.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image81.png, id=357, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image81.png, id=361, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image81.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image81.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-1.png  used on input line 2720.
+1.png  used on input line 2724.
 (pdftex.def)             Requested size: 101.02365pt x 101.02365pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image82.png, id=358, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image82.png, id=362, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image82.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image82.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-2.png  used on input line 2739.
+2.png  used on input line 2743.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [60 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image80.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image81.png>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image83.png, id=364, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image83.png, id=368, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image83.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image83.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-3.png  used on input line 2743.
+3.png  used on input line 2747.
 (pdftex.def)             Requested size: 101.02365pt x 101.02365pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image84.png, id=365, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image84.png, id=369, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image84.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image84.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-4.png  used on input line 2763.
+4.png  used on input line 2767.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [61 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image82.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image83.png> <./vertopal_10
 9f12be458a423d8f3cc838880eaea2/media/image84.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image85.png, id=372, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image85.png, id=376, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image85.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image85.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-5.png  used on input line 2813.
+5.png  used on input line 2817.
 (pdftex.def)             Requested size: 108.70663pt x 108.70663pt.
  [62 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image85.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image86.png, id=377, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image86.png, id=381, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image86.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image86.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-6.png  used on input line 2850.
+6.png  used on input line 2854.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
  [63 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image86.png (PNG copy)>
 ] [64]
 [65]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image87.png, id=391, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image87.png, id=395, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image87.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image87.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-7.png  used on input line 3015.
+7.png  used on input line 3019.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image88.png, id=392, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image88.png, id=396, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image88.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image88.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-8.png  used on input line 3027.
+8.png  used on input line 3031.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
  [66 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image87.png (PNG copy)>
  <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image88.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image89.png, id=397, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image89.png, id=401, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image89.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image89.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image8
-9.png  used on input line 3057.
+9.png  used on input line 3061.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
  [67 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image89.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image90.png, id=403, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image90.png, id=407, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image90.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image90.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-0.png  used on input line 3110.
+0.png  used on input line 3114.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
  [68 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image90.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image91.png, id=408, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image91.png, id=412, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image91.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image91.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-1.png  used on input line 3175.
+1.png  used on input line 3179.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
  [69] [70 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image91.png (PNG c
 opy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image92.png, id=417, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image92.png, id=421, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image92.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image92.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-2.png  used on input line 3259.
+2.png  used on input line 3263.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
  [71 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image92.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image93.png, id=422, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image93.png, id=426, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image93.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image93.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-3.png  used on input line 3285.
+3.png  used on input line 3289.
 (pdftex.def)             Requested size: 108.1038pt x 108.1038pt.
  [72 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image93.png>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image94.png, id=428, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image94.png, id=432, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image94.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image94.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-4.png  used on input line 3339.
+4.png  used on input line 3343.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
 [73 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image94.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image95.png, id=434, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image95.png, id=438, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image95.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image95.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-5.png  used on input line 3402.
+5.png  used on input line 3406.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
 [74 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image95.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image96.png, id=439, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image96.png, id=443, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image96.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image96.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-6.png  used on input line 3440.
+6.png  used on input line 3444.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image97.png, id=440, 385.44pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image97.png, id=444, 385.44pt 
 x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image97.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image97.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-7.png  used on input line 3455.
+7.png  used on input line 3459.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
 [75 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image96.png (PNG copy)>]
 [76 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image97.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image98.png, id=449, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image98.png, id=453, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image98.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image98.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-8.png  used on input line 3530.
+8.png  used on input line 3534.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image99.png, id=450, 321.2pt x
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image99.png, id=454, 321.2pt x
  321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image99.png Graphic file 
 (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image99.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image9
-9.png  used on input line 3551.
+9.png  used on input line 3555.
 (pdftex.def)             Requested size: 108.40277pt x 108.40277pt.
 [77 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image98.png (PNG copy)>]
 [78 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image99.png (PNG copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image100.png, id=459, 321.2pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image100.png, id=463, 321.2pt 
 x 321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image100.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image100.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-00.png  used on input line 3630.
+00.png  used on input line 3634.
 (pdftex.def)             Requested size: 96.45876pt x 96.45876pt.
 [79 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image100.png (PNG copy)>
 ]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image101.png, id=465, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image101.png, id=469, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image101.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image101.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-01.png  used on input line 3704.
+01.png  used on input line 3708.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [80] [81 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image101.png (PNG 
 copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image102.png, id=474, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image102.png, id=478, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image102.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image102.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-02.png  used on input line 3762.
+02.png  used on input line 3766.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [82 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image102.png (PNG copy)
 >] [83]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image103.png, id=483, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image103.png, id=487, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image103.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image103.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-03.png  used on input line 3887.
+03.png  used on input line 3891.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [84 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image103.png (PNG copy)
 >]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image104.png, id=488, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image104.png, id=492, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image104.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image104.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-04.png  used on input line 3967.
+04.png  used on input line 3971.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [85] [86 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image104.png (PNG 
 copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image105.png, id=498, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image105.png, id=502, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image105.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image105.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-05.png  used on input line 4054.
+05.png  used on input line 4058.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [87 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image105.png (PNG copy)
 >]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image106.png, id=503, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image106.png, id=507, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image106.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image106.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-06.png  used on input line 4082.
+06.png  used on input line 4086.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [88 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image106.png (PNG copy)
 >]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image107.png, id=508, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image107.png, id=512, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image107.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image107.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-07.png  used on input line 4138.
+07.png  used on input line 4142.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [89 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image107.png (PNG copy)
 >]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image108.png, id=513, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image108.png, id=517, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image108.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image108.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-08.png  used on input line 4214.
+08.png  used on input line 4218.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [90] [91 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image108.png (PNG 
 copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image109.png, id=523, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image109.png, id=527, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image109.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image109.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-09.png  used on input line 4269.
+09.png  used on input line 4273.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image110.png, id=524, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image110.png, id=528, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image110.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image110.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-10.png  used on input line 4277.
+10.png  used on input line 4281.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image111.png, id=525, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image111.png, id=529, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image111.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image111.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-11.png  used on input line 4305.
+11.png  used on input line 4309.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [92 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image109.png (PNG copy)
 > <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image110.png (PNG copy)>] 
 [93 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image111.png (PNG copy)>
 ] [94]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image112.png, id=538, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image112.png, id=542, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image112.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image112.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-12.png  used on input line 4446.
+12.png  used on input line 4450.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [95 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image112.png (PNG copy)
 >]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image113.png, id=543, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image113.png, id=547, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image113.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image113.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-13.png  used on input line 4507.
+13.png  used on input line 4511.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [96 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image113.png (PNG copy)
 >] [97]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image114.png, id=553, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image114.png, id=557, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image114.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image114.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-14.png  used on input line 4595.
+14.png  used on input line 4599.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [98 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image114.png (PNG copy)
 >] [99]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image115.png, id=563, 385.44pt
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image115.png, id=567, 385.44pt
  x 385.44pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image115.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image115.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-15.png  used on input line 4723.
+15.png  used on input line 4727.
 (pdftex.def)             Requested size: 101.27655pt x 101.27655pt.
  [100] [101 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image115.png (PN
 G copy)>]
-<vertopal_109f12be458a423d8f3cc838880eaea2/media/image116.png, id=572, 321.2pt 
+<vertopal_109f12be458a423d8f3cc838880eaea2/media/image116.png, id=576, 321.2pt 
 x 321.2pt>
 File: vertopal_109f12be458a423d8f3cc838880eaea2/media/image116.png Graphic file
  (type png)
 <use vertopal_109f12be458a423d8f3cc838880eaea2/media/image116.png>
 Package pdftex.def Info: vertopal_109f12be458a423d8f3cc838880eaea2/media/image1
-16.png  used on input line 4806.
+16.png  used on input line 4810.
 (pdftex.def)             Requested size: 96.75772pt x 96.75772pt.
  [102 <./vertopal_109f12be458a423d8f3cc838880eaea2/media/image116.png (PNG copy
 )>]
-[103]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 1 on input line 5103.
-
-[104]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-[105] (./elementi-di-strategia-negli-scacchi-moderni.aux)
+[103] [104] [105] (./elementi-di-strategia-negli-scacchi-moderni.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16597 strings out of 480247
- 288353 string characters out of 5896152
- 562375 words of memory out of 5000000
- 33575 multiletter control sequences out of 15000+600000
- 532254 words of font info for 286 fonts, out of 8000000 for 9000
+ 29022 strings out of 480247
+ 563195 string characters out of 5896152
+ 812908 words of memory out of 5000000
+ 45756 multiletter control sequences out of 15000+600000
+ 532401 words of font info for 287 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 74i,8n,77p,1040b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 129i,8n,132p,1040b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
->
+ips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/skaknew/Ska
+kNew-FigurineBold.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10
+.pfb>
 Output written on elementi-di-strategia-negli-scacchi-moderni.pdf (105 pages, 8
-17490 bytes).
+20804 bytes).
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 433 compressed objects within 5 object streams
+ 698 PDF objects out of 1000 (max. 8388607)
+ 439 compressed objects within 5 object streams
  142 named destinations out of 1000 (max. 500000)
- 29253 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 29265 words of extra memory for PDF output out of 29859 (max. 10000000)
 

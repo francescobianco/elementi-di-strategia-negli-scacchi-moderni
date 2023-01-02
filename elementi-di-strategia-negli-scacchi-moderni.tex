@@ -7,7 +7,8 @@
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
 \usepackage{iftex}
-\usepackage{skak}
+\usepackage{xskak}
+\usepackage{chessboard}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
@@ -76,7 +77,10 @@
 
 \begin{document}
 
-Mario Leoncini
+  \xskakset{style=UF}
+
+
+  Mario Leoncini
 
 ELEMENTI
 
@@ -209,8 +213,8 @@ Tipiche difese che contemplano questa strategia sono la Alekhine e la
 Grünfeld.
 
 Vediamo le prime mosse di entrambe:
-
-\emph{Alekhine:} \textbf{1.e4 ¤f6 2.e5 ¤d5 3.c4} (una variante meno
+\newgame
+\emph{Alekhine:} \mainline{1.e4 Nf6 2.e5 Nd5 3.c4} (una variante meno
 pretenziosa è 3.d4) \textbf{3... ¤b6 4.d4 d6 5.f4}
 
 \includegraphics[width=1.50417in,height=1.50417in]{vertopal_109f12be458a423d8f3cc838880eaea2/media/image1.png}\emph{diagramma
@@ -269,7 +273,8 @@ uno solo del Nero.
 Questo ci dà modo di chiarire il concetto: si ha guadagno di tempo solo
 quando un pezzo è costretto a muoversi perché attaccato da un altro
 pezzo o da un pedone centrale (mossa che, di solito, è utile all'uscita
-dei pezzi. Di per sé i pedoni si muovono non si sviluppano!).
+dei pezzi.
+Di per sé i pedoni si muovono non si sviluppano!).
 
 Quando il Nero gioca 3... a6 il Nero fa più o meno questo ragionamento:
 ``Tu hai messo l'Alfiere in una posizione che comprime il mio lato di
