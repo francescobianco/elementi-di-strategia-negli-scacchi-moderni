@@ -3,9 +3,35 @@
 Repository editoriale per preparare una nuova edizione di **Elementi di
 strategia negli scacchi moderni** di **Mario Leoncini**.
 
+## Origine del progetto
+
+Nel 2015 Francesco Bianco, presidente del **Circolo Castelvetrano Scacchi**,
+prese contatti con Mario Leoncini per ottenere una copia modificabile del
+libro, con l'obiettivo di correggerlo e produrre una stampa ad uso interno
+del circolo.
+
+Leoncini acconsenti', inviando il file Word dell'edizione precedente (non
+l'ultima versione pubblicata) e una copia cartacea per consentire una
+comparazione e uniformare i due testi. I principali interventi concordati
+furono:
+
+- correzione degli errori nella notazione delle mosse (lettere `b` e `d`
+  invertite in alcuni punti);
+- aggiunta di diagrammi supplementari per consentire la lettura senza
+  l'ausilio di una scacchiera, pensando in particolare ai lettori meno
+  esperti;
+- inserimento di una partita istruttiva aggiunta dall'autore stesso.
+
+A ottobre 2015 Leoncini invio' anche una nuova appendice con due partite
+del Campionato Italiano a squadre 2015, da aggiungere in fondo al volume.
+
+Questo repository nasce per portare avanti quella revisione in modo
+riproducibile, conservando i sorgenti LaTeX, i diagrammi e la cronologia
+delle modifiche.
+
 Il progetto conserva le sorgenti LaTeX ricavate dall'edizione precedente,
-le immagini dei diagrammi, il PDF storico e una nuova appendice in formato
-DOCX. La build deve produrre il nuovo PDF finale dentro `dist/`.
+le immagini dei diagrammi, il PDF storico e la nuova appendice. La build
+produce il PDF finale dentro `dist/`.
 
 ## Mario Leoncini
 
