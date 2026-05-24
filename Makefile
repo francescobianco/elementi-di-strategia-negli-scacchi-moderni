@@ -12,7 +12,7 @@ PDF := $(DIST_DIR)/$(BOOK)-nuova-edizione.pdf
 
 LATEX ?= pdflatex
 
-.PHONY: all build docker-image docker-build diagram-inventory diagram-draft-fens clean distclean
+.PHONY: all build docker-image docker-build diagram-inventory diagram-draft-fens diagram-normalize clean distclean
 
 all: build
 
@@ -30,6 +30,9 @@ diagram-inventory:
 
 diagram-draft-fens:
 	@python3 scripts/extract_diagram_fens.py
+
+diagram-normalize:
+	@python3 scripts/normalize_diagram_placeholders.py
 
 $(PDF): $(BUILD_TEX) $(shell find $(SRC_DIR) -type f)
 	@mkdir -p $(DIST_DIR)

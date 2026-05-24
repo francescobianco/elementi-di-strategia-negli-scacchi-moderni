@@ -2,7 +2,7 @@
 % The source of truth for positions is src/diagrams/diagrams.csv.
 
 \newcommand{\bookdiagramfen}[2]{%
-  \begin{center}
+  \par\begin{center}
     \chessboard[
       setfen=#1,
       boardfontsize=16pt,
@@ -18,13 +18,13 @@
     ]%
 
     {\small\emph{diagramma #2}}%
-  \end{center}%
+  \end{center}\par%
 }
 
-\newcommand{\bookdiagramplaceholder}[2]{%
-  \begin{center}
-    \fbox{\includegraphics[width=1.42in,height=1.42in]{#1}}%
+\newcommand{\bookdiagramplaceholder}[3][1.42in]{%
+  \par\begin{center}
+    \fbox{\includegraphics[width=#1,height=#1]{#2}}%
 
-    {\small\emph{diagramma #2}}%
-  \end{center}%
+    {\small\emph{diagramma #3}}%
+  \end{center}\par%
 }

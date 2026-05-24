@@ -115,9 +115,10 @@ Comandi utili:
 ```sh
 make diagram-inventory
 make diagram-draft-fens
+make diagram-normalize
 ```
 
-Il registro versionabile e' `src/diagrams/diagrams.csv`. Lo snapshot provvisorio dell'estrazione template e' `src/diagrams/draft-fens.tsv`. I FEN verificati sono renderizzabili con le macro in `src/diagrams/rendering.tex`; i PNG legacy restano disponibili durante la revisione.
+Il registro versionabile e' `src/diagrams/diagrams.csv`. Lo snapshot provvisorio dell'estrazione template e' `src/diagrams/draft-fens.tsv`. I FEN verificati sono renderizzabili con le macro in `src/diagrams/rendering.tex`; i PNG legacy restano disponibili durante la revisione. `make diagram-normalize` riscrive i vecchi `includegraphics` dei diagrammi nella macro centrata standard.
 
 
 La build:
