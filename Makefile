@@ -38,6 +38,7 @@ $(PDF): $(BUILD_TEX) $(shell find $(SRC_DIR) -type f)
 	@mkdir -p $(DIST_DIR)
 	@cd $(BUILD_DIR) && $(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=../$(DIST_DIR) $(notdir $(BUILD_TEX))
 	@cd $(BUILD_DIR) && $(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=../$(DIST_DIR) $(notdir $(BUILD_TEX))
+	@rm -f $(DIST_DIR)/*.aux $(DIST_DIR)/*.log $(DIST_DIR)/*.out $(DIST_DIR)/*.toc
 
 $(BUILD_TEX): $(MAIN_TEX)
 	@mkdir -p $(BUILD_DIR)
