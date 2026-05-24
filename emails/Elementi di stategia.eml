@@ -1,0 +1,337 @@
+Delivered-To: info.francescobianco@gmail.com
+Received: by 10.112.137.232 with SMTP id ql8csp3140099lbb;
+        Tue, 25 Aug 2015 11:14:44 -0700 (PDT)
+X-Received: by 10.194.57.19 with SMTP id e19mr56003641wjq.152.1440526484842;
+        Tue, 25 Aug 2015 11:14:44 -0700 (PDT)
+Return-Path: <mario.leoncini@gmail.com>
+Received: from nm32-vm8.bullet.mail.ir2.yahoo.com (nm32-vm8.bullet.mail.ir2.yahoo.com. [212.82.97.104])
+        by mx.google.com with ESMTPS id o4si92197wjx.75.2015.08.25.11.14.44
+        for <info.francescobianco@gmail.com>
+        (version=TLS1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 25 Aug 2015 11:14:44 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning mario.leoncini@gmail.com does not designate 212.82.97.104 as permitted sender) client-ip=212.82.97.104;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning mario.leoncini@gmail.com does not designate 212.82.97.104 as permitted sender) smtp.mailfrom=mario.leoncini@gmail.com;
+       dkim=pass header.i=@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: from [212.82.98.126] by nm32.bullet.mail.ir2.yahoo.com with NNFMP; 25 Aug 2015 18:14:44 -0000
+Received: from [212.82.98.111] by tm19.bullet.mail.ir2.yahoo.com with NNFMP; 25 Aug 2015 18:14:44 -0000
+Received: from [127.0.0.1] by omp1048.mail.ir2.yahoo.com with NNFMP; 25 Aug 2015 18:14:44 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 372508.99228.bm@omp1048.mail.ir2.yahoo.com
+X-Yahoo-Forwarded: from cicciodarkast@yahoo.it to info.francescobianco@gmail.com
+Return-Path: <mario.leoncini@gmail.com>
+Received-SPF: softfail (transitioning domain of gmail.com does not designate 217.64.195.227 as permitted sender)
+ ZXJtaSBwacO5IGZhdHRvIHZpdm8uIFNvbm8gcml1c2NpdG8gYSB0cm92YXJl
+ IHVuYSBjb3BpYSwgaW4gd29yZCwgZGVsIGxpYnJvLiBQdXJ0cm9wcG8gbm9u
+ IMOoIGwndWx0aW1hIHZlcnNpb25lLCBhbmNoZSBzZSBjcmVkbyBjaGUgbGUg
+ Y29ycmV6aW9uaSBmYXR0ZSBwZXIgbGEgcHViYmxpY2F6aW9uZSBkZWZpbml0
+ aXZhIGluIHNlZ3VpdG8gbm9uIHNpYW5vIG1vbHRpc3NpbWUuLQEwAQEBAQN0
+ ZXh0L3BsYWluAwMwAgN0ZXh0L2h0bWwDAzc-
+X-YMailISG: dwpW68sWLDvBaDbialBhrnlQM88NjzolWmMOWxHP0WXRHpXA
+ ZAMdvw4JcJdVCBNIQNCwi2r0aeWP3_Rawromy5dWGBoLRz6DiNbL95G8upip
+ Inh3MlBUtsrOUK7cHSNASlpzozbpEWmvS9eY0Koy2vk_W.4W95xdFqR3NB2_
+ lsKnBTTwpWWpZzVKV.4MPYl31ETUx6orSpQu9htnAxI90dsnQX03dNdDkb5k
+ GIryrVGrXn3iMjXhZBg4fzsXZ0eDHh4mbiIKKZ6KdRiYzLmrSu50lT3FS1Vo
+ 9_4xYjtjXS6ZETx1tL1GrJA9ZU2.xckzPgt.dcp1ujOw8mkmyW53HRtf4p7a
+ IK_T.NJIgMeLdaJW2rBelBy3D7YMWT07o2mWSGJvLNU3.X87pLZ1XLke.tNe
+ LsQj65cJQoXmNYl83hylONc.EsBUxYaPUzf1mqCsF0W5NkDlbPF.P9ot0S_6
+ YEjb4qgfCa7.YBZNOaqd_5gNnldSlDncsgwTGMF4pzHVoYi_LQYA9qkmufE5
+ MwsWzmXPCU8Rw.UVh4QQMJruP4nz33P2Y2DamwhGsaCOg7U445NFepKfZGes
+ kBPregojxFdcSi4miOnwMENlXl3BS_wqj_mD_eJPMczqKH2zpAFe7qfotnzO
+ 5k3LCZXSqYE.Hjz1l.wI.N9upR8H6sXa5wNwN3pKcdcojENc7_cb5nDbcdzn
+ Bv.6zhZ1YQkSTuR7NkoONz87HBnWO8f1nU3T0leipep90VcNWq7TKNi7HXcQ
+ HBjCpI42aUYIPFFA2EokNQSSYDwtoatv.JEjQOXVKOGIWISu68NpTrXjF_0I
+ 67vdgxcpGTYaxm_hUTt1Ki5ZW5KlRQwpzA.cJfjAG.2jktTjpyN5Z4yNQemZ
+ QKtwNMGApfCfGRTPB1qMju1SMj5.PElSWvu9S0jHJxS4fE8Zk.VmQDnhG0DX
+ Bj_64Jo9DGX_2zRB1OSvnudtbLokh4NfRgEVslI6FnXxO.VovdXpBVW2SoKI
+ 4L5VtJRBx2XwaAf557LYfAzp6AjToL91UM5qodRm7lb5bJcIyPc0Zog2Pf6G
+ WXk6bPBd63r.zu_sBZRGYq0AsPzSGE9rn86UwYrmwKwD5uhNdB1fuOsqD6ny
+ JBsKoSMmcZWWgh_UmSYgfKTFeK7wSYu1keiMilaub.QlUMYww2LLPKISoks_
+ _OL9qHUUQCAN4g5tmArN99BbEoFASAfqsP5PhuvTI6EPbJx1yJLydSd1JlvZ
+ lo0aMoCpTg9OeCUHCyNhhX2CcnBWT1JPqZqgZoKNjRp3fdJ8fqNhr.PcLfaC
+ sJn7QD4p2TmBmfC1oB18Dqop0YptAmFcRZtcEa8vjxlP0jqLiNoZ9b6ze_q8
+ 7VMn3V9IwavxrOKh4xh46aRRsLvRMYaLoMfYFn68w_kW3TKW6Wr.VtTtxdnJ
+ TZmJ_u8VN3Rg2THkkxVLxcIrSU5D7lBqCilBhvt41TQMKuXO1sE6fo2uLkUQ
+ IwajIDsyYzZGbHhNJb8ZsNBblSJHwNuDg8OdewrXTyCU.GLQXqjgzJboWFf_
+ AFKdOgTFM_aTFQFSHYvu4rAfypn43VxSyTx5VSTZ6NSqPfDW0WQGpbYRf8KP
+ kewk70nzn9fy2iTUYUF4JQgsMuD9_CvWD.f.0.P5usZa.0GiNKFR.yWtAuXC
+ aWX0bigTJGPLUvRtG6g6WTGLv67GtI1ixSn4X4e4nfVw8BrKTsRQ93rz9fIe
+X-Originating-IP: [217.64.195.227]
+Authentication-Results: mta1193.mail.ir2.yahoo.com  from=gmail.com; domainkeys=neutral (no sig);  from=gmail.com; dkim=pass (ok)
+Received: from 127.0.0.1  (EHLO m-04.th.seeweb.it) (217.64.195.227)
+  by mta1193.mail.ir2.yahoo.com with SMTPS; Tue, 25 Aug 2015 18:14:43 +0000
+Received: from in-3.smtp.seeweb.it (in-3.smtp.seeweb.it [IPv6:2001:4b78:1:20::3])
+	by m-04.th.seeweb.it (8.14.3/8.14.3/Debian-9.4) with ESMTP id t7PIEg8Q030091
+	for <bianco@javanile.org>; Tue, 25 Aug 2015 20:14:42 +0200
+Received: from mail-wi0-x22d.google.com (mail-wi0-x22d.google.com [IPv6:2a00:1450:400c:c05::22d])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
+	(No client certificate requested)
+	by in-3.smtp.seeweb.it (Postfix) with ESMTPS id 6BD421A013BF
+	for <bianco@javanile.org>; Tue, 25 Aug 2015 20:14:41 +0200 (CEST)
+Received: by wicja10 with SMTP id ja10so22804979wic.1
+        for <bianco@javanile.org>; Tue, 25 Aug 2015 11:14:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:user-agent:mime-version:to:subject:references
+         :in-reply-to:content-type;
+        bh=LtvKM6S0UjG9KzG7GJ90Qd9GAe8tz+H50x6RnmCvtZc=;
+        b=kggYE+Ag34dNco37tSI0HezwLsBXljOUzjSB3fGd92C3yMroDL/l56QeIpS/slDXuk
+         I/FeTH97HxxFHgyird32yf9SlTs0f8fy91p+Dfp704j12LyR0sNi8OM0/gndiCvvlEeA
+         y67LQPxqcwUPNNin83+amVk4Q1dE9CCXHzWEkeQGjK6I/QXrAcLA3Ic20+FkCXk9iqMD
+         nQbgUZvwwMxV7XgmxgiKaJEEryz0hihVhob2b4Z+2xsguNOHKGPl2U8V9PChbDBMLCZx
+         GTUFArpGz1L+MMmIccyiZ0bFymxdM1jqfnA9a4w0A84ci2a6Tr0yvPJbDFcooL7UfS2C
+         QA/A==
+X-Received: by 10.194.184.82 with SMTP id es18mr54152763wjc.79.1440526480917;
+        Tue, 25 Aug 2015 11:14:40 -0700 (PDT)
+Received: from [10.240.200.117] (rm-19-54-60.service.infuturo.it. [151.19.54.60])
+        by smtp.googlemail.com with ESMTPSA id fs8sm3807007wib.0.2015.08.25.11.14.39
+        for <bianco@javanile.org>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 25 Aug 2015 11:14:40 -0700 (PDT)
+Message-ID: <55DCB089.3060509@gmail.com>
+Date: Tue, 25 Aug 2015 20:14:33 +0200
+From: Mario Leoncini <mario.leoncini@gmail.com>
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:31.0) Gecko/20100101 Thunderbird/31.7.0
+MIME-Version: 1.0
+To: "Ing. Francesco Bianco" <bianco@javanile.org>
+Subject: Re: Elementi di stategia
+References: <CAP_P4a4G6_3kzS+CAL3JqUs5y9G684mkW4eDHT5DjMqsFwuNDw@mail.gmail.com> <CAP_P4a5z06Dgbdqc5ipLXzVZ=Hm2H3YQEca56HPBS-NLuRs6GA@mail.gmail.com>
+In-Reply-To: <CAP_P4a5z06Dgbdqc5ipLXzVZ=Hm2H3YQEca56HPBS-NLuRs6GA@mail.gmail.com>
+Content-Type: multipart/alternative;
+ boundary="------------050003060005040003060104"
+X-Spam-Status: No, score=1.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,FREEMAIL_REPLY,HTML_MESSAGE,SPF_PASS
+	autolearn=disabled version=3.4.0
+X-Spam-Level: *
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on in-3.smtp.seeweb.it
+X-Virus-Scanned: clamav-milter 0.98.7 at in-3.smtp.seeweb.it
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+--------------050003060005040003060104
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Salve,
+intanto chiedo scusa per non essermi più fatto vivo. Sono riuscito a 
+trovare una copia, in word, del libro. Purtroppo non è l'ultima 
+versione, anche se credo che le correzioni fatte per la pubblicazione 
+definitiva in seguito non siano moltissime.-
+Ho trovato anche una copia del libro cartaceo che potrei spedirle.
+Se le spedissi file e libro se la sentirebbe di fare una comparazione 
+per uniformare i due testi?
+Nel libro l'italiano va bene, l'unico problema è che talvolta le mosse 
+sono errate (il b e la d sono invertite in certi casi); ci sarebbe 
+quindi da ricontrollare anche la trascrizione delle partite.Potrei 
+spedirle il file per posta elettronca e, se mi dà il suo indirizzo, il 
+libro per posta ordinaria.
+Infine, vorrei aggiungere una partita giocata di recente perché 
+istruttiva, e questo potrei farlo io nel giro di qualche giorno.
+Che facciamo, procediamo?
+Mario Leoncini
+
+Il 24/08/2015 17.31, Ing. Francesco Bianco ha scritto:
+> Salve! Dott. Leoncini
+>
+> sono Francesco Bianco presidente del circolo di Castelvetrano!
+> Tempo fa ci eravamo sentiti per parlare del suo libro "Elementi di 
+> Strategia".
+> Eravamo rimasti che per Sua grande concessione ci mandava la copia 
+> modificabile del libro per poterla rivedere e per permetterci di poter 
+> stampare delle copie del libro per il nostro circolo...
+>
+> Spero di poter stampare le copie per il 2016 ma vorrei poter sistemare 
+> il materiale prima di andare in stampa...
+>
+> Sentiamoci quando vuole
+> Grazie ancora...
+>
+> Il giorno 22 giugno 2015 14:20, Ing. Francesco Bianco 
+> <bianco@javanile.org <mailto:bianco@javanile.org>> ha scritto:
+>
+>     Salve! Mario Leoncini
+>
+>     Mi chiamo Francesco Bianco sono il presidente del circolo
+>     Castelvetrano Scacchi. Le vorrei parlare a proposito del suo libro
+>     "elementi di stretegia"
+>     Questo è il mio numero di telefono 3200466987 mi contatti lei
+>     oppure se mi lascia il suo numero la contatto io
+>
+>
+>
+>
+> -- 
+> *Ing. Francesco Bianco
+> */Analyst Programmer & Software Designer/
+> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+> social: http://it.linkedin.com/in/francescobianco1981
+>  email: info.francescobianco@gmail.com 
+> <mailto:info.francescobianco@gmail.com>
+>    pec: info.francescobianco@pec.it <mailto:info.francescobianco@pec.it>
+>   blog: http://codicebianco.blogspot.com 
+> <http://codicebianco.blogspot.com/>
+>   sito: http://www.javanile.org <http://www.javanile.org/>
+> mobile: +39 320 04 66 987
+>  p.iva: 02360350819
+>
+>
+> --
+> Ai sensi del D.L. n° 196 del 30/06/03 si precisa che le informazioni 
+> contenute
+> in questo messaggio sono riservate e ad uso esclusivo del destinatario.
+> Qualora il messaggio Le fosse pervenuto per errore La preghiamo di 
+> eliminarlo
+> senza copiarlo, e di non inviarlo a terzi, dandocene gentilmente 
+> comunicazione.
+> Grazie.
+
+
+--------------050003060005040003060104
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    Salve,<br>
+    intanto chiedo scusa per non essermi più fatto vivo. Sono riuscito a
+    trovare una copia, in word, del libro. Purtroppo non è l'ultima
+    versione, anche se credo che le correzioni fatte per la
+    pubblicazione definitiva in seguito non siano moltissime.-<br>
+    Ho trovato anche una copia del libro cartaceo che potrei spedirle.<br>
+    Se le spedissi file e libro se la sentirebbe di fare una
+    comparazione per uniformare i due testi?<br>
+    Nel libro l'italiano va bene, l'unico problema è che talvolta le
+    mosse sono errate (il b e la d sono invertite in certi casi); ci
+    sarebbe quindi da ricontrollare anche la trascrizione delle
+    partite.Potrei spedirle il file per posta elettronca e, se mi dà il
+    suo indirizzo, il libro per posta ordinaria.<br>
+    Infine, vorrei aggiungere una partita giocata di recente perché
+    istruttiva, e questo potrei farlo io nel giro di qualche giorno.<br>
+    Che facciamo, procediamo?<br>
+    Mario Leoncini<br>
+    <br>
+    <div class="moz-cite-prefix">Il 24/08/2015 17.31, Ing. Francesco
+      Bianco ha scritto:<br>
+    </div>
+    <blockquote
+cite="mid:CAP_P4a5z06Dgbdqc5ipLXzVZ=Hm2H3YQEca56HPBS-NLuRs6GA@mail.gmail.com"
+      type="cite">
+      <div dir="ltr">Salve! Dott. Leoncini
+        <div><br>
+        </div>
+        <div>sono Francesco Bianco presidente del circolo di
+          Castelvetrano!</div>
+        <div>Tempo fa ci eravamo sentiti per parlare del suo libro
+          "Elementi di Strategia".</div>
+        <div>Eravamo rimasti che per Sua grande concessione ci mandava
+          la copia modificabile del libro per poterla rivedere e per
+          permetterci di poter stampare delle copie del libro per il
+          nostro circolo...</div>
+        <div><br>
+        </div>
+        <div>Spero di poter stampare le copie per il 2016 ma vorrei
+          poter sistemare il materiale prima di andare in stampa...</div>
+        <div><br>
+        </div>
+        <div>Sentiamoci quando vuole </div>
+        <div>Grazie ancora...  </div>
+      </div>
+      <div class="gmail_extra"><br>
+        <div class="gmail_quote">Il giorno 22 giugno 2015 14:20, Ing.
+          Francesco Bianco <span dir="ltr">&lt;<a
+              moz-do-not-send="true" href="mailto:bianco@javanile.org"
+              target="_blank">bianco@javanile.org</a>&gt;</span> ha
+          scritto:<br>
+          <blockquote class="gmail_quote" style="margin:0 0 0
+            .8ex;border-left:1px #ccc solid;padding-left:1ex">
+            <p dir="ltr">Salve! Mario Leoncini </p>
+            <p dir="ltr">Mi chiamo Francesco Bianco sono il presidente
+              del circolo Castelvetrano Scacchi. Le vorrei parlare a
+              proposito del suo libro "elementi di stretegia"<br>
+              Questo è il mio numero di telefono 3200466987 mi contatti
+              lei oppure se mi lascia il suo numero la contatto io<br>
+              <br>
+            </p>
+          </blockquote>
+        </div>
+        <br>
+        <br clear="all">
+        <div><br>
+        </div>
+        -- <br>
+        <div class="gmail_signature">
+          <div dir="ltr">
+            <div>
+              <div dir="ltr">
+                <div>
+                  <div dir="ltr">
+                    <div>
+                      <div dir="ltr">
+                        <div>
+                          <div dir="ltr">
+                            <div>
+                              <div dir="ltr"><b><font size="2">Ing.
+                                    Francesco Bianco</font><br>
+                                </b><i><font size="1">Analyst Programmer &amp;
+                                    Software Designer</font></i><br>
+                                - - - - - - - - - - - - - - - - - - - -
+                                - - - - - - - - - -<br>
+                                <font face="courier new, monospace"
+                                  size="1">social: <a
+                                    moz-do-not-send="true"
+                                    href="http://it.linkedin.com/in/francescobianco1981"
+                                    target="_blank">http://it.linkedin.com/in/francescobianco1981</a></font></div>
+                              <div dir="ltr"><font face="courier new,
+                                  monospace" size="1"> email: <a
+                                    moz-do-not-send="true"
+                                    href="mailto:info.francescobianco@gmail.com"
+                                    target="_blank">info.francescobianco@gmail.com</a></font></div>
+                              <div dir="ltr"><font face="courier new,
+                                  monospace" size="1">   pec: <a
+                                    moz-do-not-send="true"
+                                    href="mailto:info.francescobianco@pec.it"
+                                    target="_blank">info.francescobianco@pec.it</a><br>
+                                    blog: <a moz-do-not-send="true"
+                                    href="http://codicebianco.blogspot.com/"
+                                    target="_blank">http://codicebianco.blogspot.com</a><br>
+                                    sito: <a moz-do-not-send="true"
+                                    href="http://www.javanile.org/"
+                                    target="_blank">http://www.javanile.org</a><br>
+                                  mobile: +39 320 04 66 987<br>
+                                   p.iva: 02360350819<br>
+                                </font><br>
+                                <br>
+                                --<br>
+                                Ai sensi del D.L. n° 196 del 30/06/03 si
+                                precisa che le informazioni contenute<br>
+                                in questo messaggio sono riservate e ad
+                                uso esclusivo del destinatario.<br>
+                                Qualora il messaggio Le fosse pervenuto
+                                per errore La preghiamo di eliminarlo<br>
+                                senza copiarlo, e di non inviarlo a
+                                terzi, dandocene gentilmente
+                                comunicazione.<br>
+                                Grazie.<br>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------050003060005040003060104--

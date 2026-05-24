@@ -30,15 +30,13 @@ Riferimenti pubblici:
 
 ## Contenuti del repository
 
-- `src/elementi-di-strategia-negli-scacchi-moderni.tex`: sorgente LaTeX
-  principale del libro.
-- `src/vertopal_109f12be458a423d8f3cc838880eaea2/media/`: immagini dei
-  diagrammi usate dalla sorgente LaTeX.
-- `src/elementi-di-strategia-negli-scacchi-moderni.pdf`: PDF storico di
-  riferimento.
-- `src/Appendice.docx`: nuova appendice da aggiungere alla nuova edizione.
-- `src/*.aux` e `src/*.log`: artefatti della precedente compilazione,
-  utili solo come riferimento diagnostico.
+- `src/main.tex`: sorgente LaTeX principale della nuova edizione.
+- `src/frontmatter/`: titolo, introduzione e materiali preliminari.
+- `src/chapters/`: capitoli numerati, separati in file modificabili.
+- `src/appendices/`: appendici convertite in LaTeX omogeneo.
+- `src/assets/diagrams/`: diagrammi del testo storico.
+- `src/assets/appendix/media/`: diagrammi della nuova appendice.
+- `old_src/`: archivio dei sorgenti precedenti, del PDF storico, del DOCX originale e degli artefatti importati.
 - `dist/`: destinazione del PDF generato dalla build.
 - `build/`: directory temporanea generata da `make`, esclusa da git.
 
@@ -57,14 +55,12 @@ La sorgente contiene l'introduzione e dieci capitoli:
 9. Pezzi fuori gioco
 10. Altri aspetti della battaglia scacchistica
 
-La sorgente include gia' una `Appendice al capitolo III`. La nuova
-appendice in `src/Appendice.docx` viene convertita da `pandoc` e aggiunta
-in coda al volume durante la build, senza modificare il `.tex` originale.
+La nuova struttura include gia' l'`Appendice al capitolo III` in `src/appendices/appendice-capitolo-iii.tex`. La nuova appendice 2015 e' stata convertita stabilmente in `src/appendices/appendice-2015.tex`, cosi' le modifiche massive possono avvenire direttamente sui sorgenti LaTeX.
 
 ## Nuova appendice
 
-`src/Appendice.docx` contiene una nota di aggiornamento e due partite del
-Campionato Italiano a squadre 2015:
+`src/appendices/appendice-2015.tex` contiene una nota di aggiornamento e due partite del
+Campionato Italiano a squadre 2015. Il DOCX originale resta archiviato in `old_src/Appendice.docx`:
 
 - Gazzarri-Leoncini, Cecina 2015, Difesa Siciliana.
 - Borselli-Leoncini, Firenze 2015, Tartakower.
@@ -76,7 +72,6 @@ valutazione di vantaggi strutturali.
 ## Requisiti
 
 - `make`
-- `pandoc`
 - un motore LaTeX compatibile con il sorgente, per esempio `pdflatex`
 
 Il Makefile usa `pdflatex` per impostazione predefinita. Si puo' scegliere
@@ -88,11 +83,19 @@ make LATEX=xelatex
 
 ## Build
 
-Per generare la nuova edizione:
+Per generare la nuova edizione con un motore LaTeX locale:
 
 ```sh
 make
 ```
+
+Oppure tramite l'ambiente Docker riutilizzabile:
+
+```sh
+make docker-build
+```
+
+La prima esecuzione costruisce l'immagine `elementi-strategia-scacchi-latex:latest` da `docker/latex/Dockerfile`; le build successive la riutilizzano.
 
 Output atteso:
 
@@ -100,13 +103,13 @@ Output atteso:
 dist/elementi-di-strategia-negli-scacchi-moderni-nuova-edizione.pdf
 ```
 
+I sorgenti usano gia' la notazione figurata delle mosse (`¤`, `¥`, `£`, `¦`, `¢`), senza post-processing durante la build.
+
 La build:
 
-1. converte `src/Appendice.docx` in LaTeX;
-2. estrae le immagini dell'appendice in `build/appendice/media/`;
-3. genera un `.tex` combinato in `build/`;
-4. compila due volte il PDF;
-5. scrive il risultato finale in `dist/`.
+1. genera un `.tex` temporaneo in `build/` con i path corretti per la compilazione;
+2. compila due volte il PDF;
+3. scrive il risultato finale in `dist/`.
 
 ## Pulizia
 

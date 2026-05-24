@@ -3,37 +3,36 @@ SHELL := /bin/sh
 SRC_DIR := src
 BUILD_DIR := build
 DIST_DIR := dist
+DOCKER_IMAGE ?= elementi-strategia-scacchi-latex:latest
 
 BOOK := elementi-di-strategia-negli-scacchi-moderni
-MAIN_TEX := $(SRC_DIR)/$(BOOK).tex
-APPENDIX_DOCX := $(SRC_DIR)/Appendice.docx
-APPENDIX_DIR := $(BUILD_DIR)/appendice
-APPENDIX_TEX := $(APPENDIX_DIR)/appendice.tex
-COMBINED_TEX := $(BUILD_DIR)/$(BOOK)-nuova-edizione.tex
+MAIN_TEX := $(SRC_DIR)/main.tex
+BUILD_TEX := $(BUILD_DIR)/$(BOOK)-nuova-edizione.tex
 PDF := $(DIST_DIR)/$(BOOK)-nuova-edizione.pdf
 
 LATEX ?= pdflatex
 
-.PHONY: all build clean distclean
+.PHONY: all build docker-image docker-build clean distclean
 
 all: build
 
 build: $(PDF)
 
-$(PDF): $(COMBINED_TEX) $(APPENDIX_TEX)
+
+docker-image:
+	@docker build -f docker/latex/Dockerfile -t $(DOCKER_IMAGE) .
+
+docker-build: docker-image
+	@docker run --rm --user $$(id -u):$$(id -g) -e HOME=/tmp -v $(CURDIR):/work -w /work $(DOCKER_IMAGE) make build
+
+$(PDF): $(BUILD_TEX) $(shell find $(SRC_DIR) -type f)
 	@mkdir -p $(DIST_DIR)
-	@cd $(BUILD_DIR) && $(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=../$(DIST_DIR) $(notdir $(COMBINED_TEX))
-	@cd $(BUILD_DIR) && $(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=../$(DIST_DIR) $(notdir $(COMBINED_TEX))
+	@cd $(BUILD_DIR) && $(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=../$(DIST_DIR) $(notdir $(BUILD_TEX))
+	@cd $(BUILD_DIR) && $(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=../$(DIST_DIR) $(notdir $(BUILD_TEX))
 
-$(COMBINED_TEX): $(MAIN_TEX) $(APPENDIX_TEX)
+$(BUILD_TEX): $(MAIN_TEX)
 	@mkdir -p $(BUILD_DIR)
-	@awk 'BEGIN { inserted=0 } /\\end\{document\}/ && !inserted { print "\\clearpage"; print "\\input{appendice/appendice.tex}"; inserted=1 } { print }' $(MAIN_TEX) \
-		| sed 's#{vertopal_#{../$(SRC_DIR)/vertopal_#g' > $(COMBINED_TEX)
-
-$(APPENDIX_TEX): $(APPENDIX_DOCX)
-	@mkdir -p $(APPENDIX_DIR)
-	@pandoc $(APPENDIX_DOCX) -t latex --extract-media=$(APPENDIX_DIR) -o $(APPENDIX_TEX)
-	@perl -0pi -e 's#\{(?:$(BUILD_DIR)/)?appendice/media/#\{appendice/media/#g; s#\{media/#\{appendice/media/#g' $(APPENDIX_TEX)
+	@sed 's#{assets/#{../$(SRC_DIR)/assets/#g; s#{frontmatter/#{../$(SRC_DIR)/frontmatter/#g; s#{chapters/#{../$(SRC_DIR)/chapters/#g; s#{appendices/#{../$(SRC_DIR)/appendices/#g' $(MAIN_TEX) > $(BUILD_TEX)
 
 clean:
 	@rm -rf $(BUILD_DIR)
