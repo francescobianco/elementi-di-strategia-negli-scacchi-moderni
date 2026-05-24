@@ -2,17 +2,23 @@
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[
-]{article}
+\documentclass[twocolumn]{article}
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
 \usepackage{iftex}
 \usepackage{xskak}
 \usepackage{chessboard}
+\setlength{\columnsep}{1.2em}
+\setlength{\columnseprule}{0pt}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
+  \DeclareUnicodeCharacter{00A4}{\symknight}
+  \DeclareUnicodeCharacter{00A5}{\symbishop}
+  \DeclareUnicodeCharacter{00A3}{\symqueen}
+  \DeclareUnicodeCharacter{00A6}{\symrook}
+  \DeclareUnicodeCharacter{00A2}{\symking}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
