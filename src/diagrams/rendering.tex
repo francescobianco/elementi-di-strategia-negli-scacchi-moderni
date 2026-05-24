@@ -1,0 +1,30 @@
+% Diagram rendering helpers for the new edition.
+% The source of truth for positions is src/diagrams/diagrams.csv.
+
+\newcommand{\bookdiagramfen}[2]{%
+  \begin{center}
+    \chessboard[
+      setfen=#1,
+      boardfontsize=16pt,
+      labelfontsize=6pt,
+      showmover=false,
+      label=false,
+      margin=false,
+      linewidth=0.35pt,
+      color=gray,
+      colorwhitebackfields=white,
+      colorblackbackfields=gray!18,
+      pgfstyle=straightmove,
+    ]%
+
+    {\small\emph{diagramma #2}}%
+  \end{center}%
+}
+
+\newcommand{\bookdiagramplaceholder}[2]{%
+  \begin{center}
+    \fbox{\includegraphics[width=1.42in,height=1.42in]{#1}}%
+
+    {\small\emph{diagramma #2}}%
+  \end{center}%
+}

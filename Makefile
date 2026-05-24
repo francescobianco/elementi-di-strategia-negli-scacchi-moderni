@@ -12,7 +12,7 @@ PDF := $(DIST_DIR)/$(BOOK)-nuova-edizione.pdf
 
 LATEX ?= pdflatex
 
-.PHONY: all build docker-image docker-build clean distclean
+.PHONY: all build docker-image docker-build diagram-inventory diagram-draft-fens clean distclean
 
 all: build
 
@@ -25,6 +25,12 @@ docker-image:
 docker-build: docker-image
 	@docker run --rm --user $$(id -u):$$(id -g) -e HOME=/tmp -v $(CURDIR):/work -w /work $(DOCKER_IMAGE) make build
 
+diagram-inventory:
+	@python3 scripts/diagram_inventory.py
+
+diagram-draft-fens:
+	@python3 scripts/extract_diagram_fens.py
+
 $(PDF): $(BUILD_TEX) $(shell find $(SRC_DIR) -type f)
 	@mkdir -p $(DIST_DIR)
 	@cd $(BUILD_DIR) && $(LATEX) -interaction=nonstopmode -halt-on-error -output-directory=../$(DIST_DIR) $(notdir $(BUILD_TEX))
@@ -32,7 +38,7 @@ $(PDF): $(BUILD_TEX) $(shell find $(SRC_DIR) -type f)
 
 $(BUILD_TEX): $(MAIN_TEX)
 	@mkdir -p $(BUILD_DIR)
-	@sed 's#{assets/#{../$(SRC_DIR)/assets/#g; s#{frontmatter/#{../$(SRC_DIR)/frontmatter/#g; s#{chapters/#{../$(SRC_DIR)/chapters/#g; s#{appendices/#{../$(SRC_DIR)/appendices/#g' $(MAIN_TEX) > $(BUILD_TEX)
+	@sed 's#{assets/#{../$(SRC_DIR)/assets/#g; s#{diagrams/#{../$(SRC_DIR)/diagrams/#g; s#{frontmatter/#{../$(SRC_DIR)/frontmatter/#g; s#{chapters/#{../$(SRC_DIR)/chapters/#g; s#{appendices/#{../$(SRC_DIR)/appendices/#g' $(MAIN_TEX) > $(BUILD_TEX)
 
 clean:
 	@rm -rf $(BUILD_DIR)

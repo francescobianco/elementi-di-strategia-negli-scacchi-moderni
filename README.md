@@ -35,6 +35,7 @@ Riferimenti pubblici:
 - `src/chapters/`: capitoli numerati, separati in file modificabili.
 - `src/appendices/`: appendici convertite in LaTeX omogeneo.
 - `src/assets/diagrams/`: diagrammi del testo storico.
+- `src/diagrams/`: registro FEN e macro di rendering dinamico dei diagrammi.
 - `src/assets/appendix/media/`: diagrammi della nuova appendice.
 - `old_src/`: archivio dei sorgenti precedenti, del PDF storico, del DOCX originale e degli artefatti importati.
 - `dist/`: destinazione del PDF generato dalla build.
@@ -104,6 +105,20 @@ dist/elementi-di-strategia-negli-scacchi-moderni-nuova-edizione.pdf
 ```
 
 I sorgenti usano gia' la notazione figurata delle mosse (`¤`, `¥`, `£`, `¦`, `¢`), senza post-processing durante la build.
+
+## Diagrammi FEN
+
+Il lavoro di estrazione dei diagrammi e' documentato in `docs/diagram-fen-extraction.md`.
+
+Comandi utili:
+
+```sh
+make diagram-inventory
+make diagram-draft-fens
+```
+
+Il registro versionabile e' `src/diagrams/diagrams.csv`. Lo snapshot provvisorio dell'estrazione template e' `src/diagrams/draft-fens.tsv`. I FEN verificati sono renderizzabili con le macro in `src/diagrams/rendering.tex`; i PNG legacy restano disponibili durante la revisione.
+
 
 La build:
 

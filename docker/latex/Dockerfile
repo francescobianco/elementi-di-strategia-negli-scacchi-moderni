@@ -11,6 +11,7 @@ RUN apt-get update \
         pandoc \
         perl \
         poppler-utils \
+        python3-pil \
         stockfish \
         texlive-fonts-recommended \
         texlive-games \
